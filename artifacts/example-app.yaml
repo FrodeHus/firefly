@@ -1,0 +1,7 @@
+apiVersion: pepperprovesapoint.com/v1
+kind: FireflyApplication
+metadata:
+  name: sampleapp
+spec:
+  image: sampleapp:latest
+  registry: frodehus

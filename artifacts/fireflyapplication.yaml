@@ -1,0 +1,14 @@
+apiVersion: apiextensions.k8s.io/v1beta1
+kind: CustomResourceDefinition
+metadata:
+  name: fireflyapplications.pepperprovesapoint.com
+spec:
+  group: pepperprovesapoint.com
+  version: v1
+  names:
+    kind: FireflyApplication
+    plural: fireflyapplications
+    singular: fireflyapplication
+    shortNames:
+      - fa
+  scope: Namespaced
